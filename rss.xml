@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+<channel>
+
+<title>O Nômade Global</title>
+<link>./</link>
+<description>Blog O Nômade Global - Marketing Digital, Maquininhas e Renda Online</description>
+<language>pt-br</language>
+<atom:link href="./rss.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Mon, 09 Mar 2026 12:00:00 GMT</lastBuildDate>
+
+  <!-- ARTIGO -->
+<item>
+<title>Ozen Vitta: Para Que Serve, Como Tomar, Composição, Preço e Se Emagrece Mesmo</title>
+<link>./emagrecimento/ozen-vitta/</link>
+<guid>./emagrecimento/ozen-vitta/</guid>
+<pubDate>Mon, 09 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Marketing Digital</category>
+<description><![CDATA[
+O Ozen Vitta é um suplemento alimentar em cápsulas desenvolvido para auxiliar no processo de emagrecimento de forma natural. A fórmula combina nutrientes, fibras e compostos que ajudam no controle do apetite, melhora do metabolismo e queima de gordura corporal.
+]]></description>
+</item>
+
+ <!-- ARTIGO -->
+<item>
+<title>Primeira Venda em 24 Horas - Método Completo</title>
+<link>./marketing/low-ticket-do-zero/</link>
+<guid>./marketing/low-ticket-do-zero/</guid>
+<pubDate>Mon, 09 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Marketing Digital</category>
+<description><![CDATA[
+Aprenda como fazer sua primeira venda em 24 horas utilizando estratégias modernas de marketing digital.
+]]></description>
+</item>
+
+
+<!-- ARTIGO -->
+<item>
+<title>Low Ticket do Zero: Como Começar no Marketing Digital e Fazer Suas Primeiras Vendas Online</title>
+<link>./marketing/primeira-venda-em-24-horas/</link>
+<guid>./marketing/primeira-venda-em-24-horas/</guid>
+<pubDate>Mon, 09 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Marketing Digital</category>
+<description><![CDATA[
+O Low Ticket do Zero é um método de marketing digital criado para pessoas que querem começar a ganhar dinheiro na internet mesmo sem experiência, sem audiência e com pouco investimento.
+]]></description>
+</item>
+
+<!-- PAGBANK -->
+<item>
+<title>PagBank: Guia Completo da Conta Digital</title>
+<link>./maquininhas/pagbank/</link>
+<guid>./maquininhas/pagbank/</guid>
+<pubDate>Sun, 08 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Tudo sobre o PagBank: login, taxas, aplicativo, conta digital e funcionamento completo.
+]]></description>
+</item>
+
+<!-- TAP ON -->
+<item>
+<title>Tap On PagBank: Como Funciona</title>
+<link>./maquininhas/pagbank/tap-on/</link>
+<guid>./maquininhas/pagbank/tap-on/</guid>
+<pubDate>Sat, 07 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Veja como transformar seu celular em maquininha usando o Tap On do PagBank.
+]]></description>
+</item>
+
+<!-- SMART 2 -->
+<item>
+<title>Moderninha Smart 2 Vale a Pena?</title>
+<link>./maquininhas/pagbank/moderninha-smart-2/</link>
+<guid>./maquininhas/pagbank/moderninha-smart-2/</guid>
+<pubDate>Fri, 06 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Análise completa da Moderninha Smart 2 com taxas, vantagens e funcionalidades.
+]]></description>
+</item>
+
+<!-- PRO 2 -->
+<item>
+<title>Moderninha Pro 2: Taxas e Avaliação Completa</title>
+<link>./maquininhas/pagbank/moderninha-pro-2/</link>
+<guid>./maquininhas/pagbank/moderninha-pro-2/</guid>
+<pubDate>Thu, 05 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Veja se a Moderninha Pro 2 vale a pena e conheça taxas, vantagens e funcionamento.
+]]></description>
+</item>
+
+<!-- PROFIT -->
+<item>
+<title>Moderninha Profit: Guia Completo</title>
+<link>./maquininhas/pagbank/moderninha-profit/</link>
+<guid>./maquininhas/pagbank/moderninha-profit/</guid>
+<pubDate>Wed, 04 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Tudo sobre a Moderninha Profit: taxas, funcionalidades e como funciona.
+]]></description>
+</item>
+
+<!-- PLUS 2 -->
+<item>
+<title>Moderninha Plus 2: Guia Atualizado</title>
+<link>./maquininhas/pagbank/moderninha-plus-2/</link>
+<guid>./maquininhas/pagbank/moderninha-plus-2/</guid>
+<pubDate>Tue, 03 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Conheça taxas, vantagens e funcionamento da Moderninha Plus 2.
+]]></description>
+</item>
+
+<!-- CHIP 3 -->
+<item>
+<title>Minizinha Chip 3: Review Completo</title>
+<link>./maquininhas/pagbank/minizinha-chip-3/</link>
+<guid>./maquininhas/pagbank/minizinha-chip-3/</guid>
+<pubDate>Mon, 02 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Análise da Minizinha Chip 3 com taxas, vantagens e como funciona.
+]]></description>
+</item>
+
+<!-- NFC 2 -->
+<item>
+<title>Minizinha NFC 2: Vale a Pena?</title>
+<link>./maquininhas/pagbank/minizinha-nfc-2/</link>
+<guid>./maquininhas/pagbank/minizinha-nfc-2/</guid>
+<pubDate>Sun, 01 Mar 2026 10:00:00 GMT</pubDate>
+<dc:creator>Jean Soleto</dc:creator>
+<category>Maquininhas</category>
+<description><![CDATA[
+Tudo sobre a Minizinha NFC 2 e suas funcionalidades.
+]]></description>
+</item>
+
+</channel>
+</rss>

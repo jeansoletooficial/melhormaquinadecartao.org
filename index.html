@@ -1,1 +1,509 @@
-dsds
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+
+	
+  <!-- SEO Básico -->
+  <meta charset="UTF-8">
+  <title>Melhor Máquina de Cartão | Blog de Notícias | Comparativo e Muito Mais</title>
+  <meta name="description" content="O Nômade Global do Jean Soleto. Conheça Diversos Produtos e Serviços para o seu Negócio.">
+  <meta name="author" content="Jean Soleto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="canonical" href="https://melhormaquinadecartao.org/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="O Nômade Global - Jean Soleto - Blog">
+  <meta property="og:description" content="O Nômade Global do Jean Soleto. Conheça Diversos Produtos e Serviços para o seu Negócio.">
+  <meta property="og:type" content="website">
+
+      <link rel="icon" type="image/png" sizes="16x16" href="https://melhormaquinadecartao.org/images/logo2.png">
+	<meta property="og:image" content="images/banner.png" />
+	<meta property="og:image:width" content="1280" />
+	<meta property="og:image:height" content="720" />
+	<meta property="og:image:type" content="image/png" />
+
+	<link rel="alternate" type="application/rss+xml"
+title="RSS O Nômade Global"
+href="https://melhormaquinadecartao.org/rss.xml" />
+
+  <!-- Estilos -->
+  <style>
+    :root {
+      --azul: #0a3cff;
+      --amarelo: #ffcc00;
+      --cinza: #f5f7fa;
+      --texto: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--cinza);
+      color: var(--texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #fff;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 200px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    nav.breadcrumb {
+      background: #222;
+		color: #fff;
+      padding: 0.8rem 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    nav.breadcrumb a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav.breadcrumb span {
+      margin: 0 6px;
+      color: #999;
+    }
+
+    main {
+      max-width: 777px;
+      margin: auto;
+      padding: 2rem 1rem;
+      display: flex;
+      grid-template-columns: 3fr 1fr;
+      gap: 2rem;
+      background-color:#f6f7fa;
+	  flex-direction: column;
+    }
+
+    article {
+      background: white;
+      padding: 2rem;
+      border-radius: 11px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+	  margin: 14px 0px;
+    }
+
+    a {
+  text-decoration: none;
+}
+
+    article h2 {
+      color: #1082be;
+      margin-bottom: 1rem;
+	  font-size: 18px;
+    }
+
+    article .meta {
+      font-size: 0.85rem;
+      color: #777;
+      margin-bottom: 1rem;
+    }
+
+    article p {
+      margin-bottom: 1rem;
+      color: #000;
+	  font-size: 14px;
+    }
+
+    aside {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      height: fit-content;
+    }
+
+    aside h3 {
+      margin-bottom: 1rem;
+      color: #000;
+    }
+
+    aside ul {
+      list-style: none;
+    }
+
+    aside ul li {
+      margin-bottom: 0.8rem;
+    }
+
+    aside ul li a {
+      text-decoration: none;
+      color: #444;
+    }
+
+    aside ul li a:hover {
+      color: var(--azul);
+    }
+
+    footer {
+      background: #222;
+      color: #767676;
+      text-align: center;
+      padding: 1.2rem;
+      font-size: 12px;
+    }
+
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+
+  <!-- Schema.org - Blog -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "O Nômade Global",
+    "description": "O Nômade Global do Jean Soleto.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Jean Soleto"
+    }
+  }
+
+	  /* ================= MENU ================= */
+
+.main-menu {
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.menu-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.menu-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.25s;
+}
+
+.menu-links li a:hover {
+  color: #1082be;
+}
+
+/* BOTÃO MOBILE */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .menu-container {
+    justify-content: space-between;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 20px 0;
+    display: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,.08);
+  }
+
+  .menu-links.active {
+    display: flex;
+  }
+}
+  </script>
+
+</head>
+
+<body>
+
+  <header>
+     <img src="images/logo2.png" alt="O Nômade Global - Jean Soleto" title="O Nômade Global - Jean Soleto"></br>
+	
+  </header>
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+  <center> <strong>Página Inicial</strong></center>
+  </nav>
+
+  <main>
+
+	  
+	       <a href="https://melhormaquinadecartao.org/emagrecimento/ozen-vitta/" title="Ozen Vitta">
+    <article>
+      <h2>Ozen Vitta: Para Que Serve, Como Tomar, Composição, Preço e Se Emagrece Mesmo</h2>
+      <div class="meta">Publicado em 9 de Março de 2026 • Emagrecimento</div>
+
+		<p>
+
+			O Ozen Vitta é um suplemento alimentar em cápsulas desenvolvido para auxiliar no processo de emagrecimento de forma natural. A fórmula combina nutrientes, fibras e compostos que ajudam no controle do apetite, melhora do metabolismo e queima de gordura corporal.
+			
+		</p>
+			 </article>
+    </a>
+
+
+	  
+
+	       <a href="https://melhormaquinadecartao.org/marketing/low-ticket-do-zero/" title="Low Ticket do Zero">
+    <article>
+      <h2>Low Ticket do Zero: Como Começar no Marketing Digital e Fazer Suas Primeiras Vendas Online</h2>
+      <div class="meta">Publicado em 9 de Março de 2026 • Marketing • Afiliados</div>
+
+		<p>
+
+			O Low Ticket do Zero é um método de marketing digital criado para pessoas que querem começar a ganhar dinheiro na internet mesmo sem experiência, sem audiência e com pouco investimento.
+		</p>
+			 </article>
+    </a>
+
+	  
+	     <a href="https://melhormaquinadecartao.org/marketing/primeira-venda-em-24-horas/" title="Primeira Venda em 24 Horas - Caio Martins">
+    <article>
+      <h2>Primeira Venda em 24 Horas: O Método Completo Para Ganhar Dinheiro Online Começando do Zero</h2>
+      <div class="meta">Publicado em 9 de Março de 2026 • Marketing • Afiliados</div>
+
+		<p>
+
+			Se você quer fazer sua primeira venda online ainda hoje, mesmo começando do absoluto zero, o treinamento Primeira Venda em 24 Horas vem chamando atenção de milhares de pessoas que desejam ganhar dinheiro pela internet.
+
+		</p>
+			 </article>
+    </a>
+	  
+	     <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/" title="Pagbank">
+    <article>
+      <h2>PagBank: o que é, como funciona, taxas, login, maquininhas e como abrir conta</h2>
+      <div class="meta">Publicado em 8 de Março de 2026 • Maquininhas • Pagbank</div>
+
+		<p>
+			O PagBank é um banco digital brasileiro criado pela antiga PagSeguro, empresa do grupo UOL. A plataforma oferece conta digital gratuita, maquininhas de cartão, cartão de crédito, PIX, investimentos e diversas soluções financeiras para pessoas físicas e empresas.
+		
+		</p>
+			 </article>
+    </a>
+
+	  
+
+
+	  
+
+	  	  	  	   <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/tap-on/" title="Transformar o Celular em Maquininha">
+    <article>
+      <h2>Transformar o Celular em Maquininha: Como Aceitar Cartão com Tap On do PagBank</h2>
+      <div class="meta">Publicado em 8 de Março de 2026 • Maquininhas • Pagbank</div>
+
+		<p>
+			Hoje já é possível transformar o celular em maquininha e aceitar pagamentos por cartão sem precisar comprar um equipamento. Com o Tap On do PagBank, seu celular vira maquininha e permite receber pagamentos por aproximação diretamente no smartphone.
+
+			</p>
+			 </article>
+    </a>
+	  
+
+	  	  	   <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/moderninha-smart-2/" title="Moderninha Smart 2">
+    <article>
+      <h2>Moderninha Smart 2: Vale a Pena? Taxas, Como Funciona e Valor da Maquininha PagBank</h2>
+      <div class="meta">Publicado em 8 de Março de 2026 • Maquininhas • Pagbank</div>
+
+		<p>
+			A Moderninha Smart 2 é uma das maquininhas de cartão mais completas do PagBank PagSeguro. Com tela touchscreen, conexão Wi-Fi, chip 4G e câmera integrada, ela funciona praticamente como um celular para gestão de vendas.
+
+
+			</p>
+			 </article>
+    </a>
+
+	  	   <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/moderninha-pro-2/" title="Moderninha Pro 2">
+    <article>
+      <h2>Moderninha Pro 2: Vale a Pena? Taxas, Como Funciona, Valor e Comparação Completa - Pagbank</h2>
+      <div class="meta">Publicado em 8 de Março de 2026 • Maquininhas • Pagbank</div>
+
+		<p>A Moderninha Pro 2 é uma das maquininhas de cartão mais completas do PagBank PagSeguro. Com chip 4G grátis, Wi-Fi, NFC por aproximação, impressão de comprovante e pagamento via QR Code Pix, ela se tornou uma das principais opções para quem deseja vender mais com praticidade.
+		</p>
+			 </article>
+    </a>
+
+	   <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/moderninha-profit/" title="Moderninha Profit">
+    <article>
+      <h2>Moderninha Profit: Taxas, Como Funciona, Valor e Se Vale a Pena - Pagbank</h2>
+      <div class="meta">Publicado em 8 de Março de 2026 • Maquininhas • Pagbank</div>
+
+		<p>A Moderninha Profit é uma das maquininhas de cartão mais completas do PagBank PagSeguro. Ela foi desenvolvida para quem precisa de uma máquina profissional que imprime comprovante, aceita todas as bandeiras e funciona com internet própria.</p>
+    </article>
+    </a>
+
+	  
+
+	  	  <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/moderninha-plus-2/" title="Moderninha Plus 2">
+    <article>
+      <h2>Moderninha Plus 2: Vale a Pena? Taxas, Como Funciona, Valor e Comparativo Completo - Pagbank</h2>
+      <div class="meta">Publicado em 3 de Março de 2026 • Maquininhas • Pagbank</div>
+
+		<p>A <strong>Moderninha Plus 2</strong> da PagBank (antigo PagSeguro) &eacute; uma das maquininhas de cart&atilde;o mais buscadas do Brasil. Neste guia completo voc&ecirc; vai descobrir:</p>
+
+    </article>
+    </a>
+
+	  
+	  <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/minizinha-chip-3/" title="Minizinha Chip 3">
+    <article>
+      <h2>Minizinha Chip 3: Vale a Pena? Taxas, Como Funciona, Valor e Comparativo Completo - Pagbank</h2>
+      <div class="meta">Publicado em 3 de Março de 2026 • Maquininhas • Pagbank</div>
+      <p>A <strong>Minizinha Chip 3</strong> &eacute; uma das maquininhas de cart&atilde;o mais vendidas do Brasil e uma das principais op&ccedil;&otilde;es do PagBank PagSeguro para quem busca <strong>uma maquininha barata, sem aluguel e que funciona sem celular</strong>.</p>
+
+    </article>
+    </a>
+
+    <a href="https://melhormaquinadecartao.org/maquininhas/pagbank/minizinha-nfc-2/" title="Minizinha NFC 2">
+    <article>
+      <h2>Minizinha NFC 2: vale a pena comprar? Veja Valor, Taxas, Como Funciona e Como Configurar</h2>
+      <div class="meta">Publicado em 2 de Março de 2026 • Maquininhas • Pagbank</div>
+      <p>A <strong>Minizinha NFC 2</strong> &eacute; uma das maquininhas mais vendidas do Brasil para quem busca baixo investimento inicial, tecnologia por aproxima&ccedil;&atilde;o e taxas competitivas. Pequena no tamanho e no pre&ccedil;o, mas gigante nas vendas, ela &eacute; ideal para MEIs, aut&ocirc;nomos e pequenos empreendedores que querem come&ccedil;ar a aceitar cart&atilde;o gastando pouco.</p>
+
+    </article>
+    </a>
+
+	      
+
+    <aside style="display:none;">
+      <h3>Categorias</h3>
+      <ul>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">HTML & CSS</a></li>
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Performance</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <strong style="color: #fff;">O Nômade Global</strong> <br>
+    Todos os direitos reservados <br>
+    <a style="color: #767676;" href="/politica-de-privacidade/" title="Política de Privacidade">Política de Privacidade</a> | 
+    <a style="color: #767676;" href="/termos-e-condicoes/" title="Termos e Condições">Termos e Condições</a>
+  </footer>
+
+	<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  // Seleciona somente links que possuem ARTICLE dentro
+  const posts = document.querySelectorAll("main > a:has(article)");
+
+  const postsPerLoad = 7;
+  let visible = postsPerLoad;
+
+  // Oculta posts extras
+  posts.forEach((post, index) => {
+    if (index >= postsPerLoad) {
+      post.style.display = "none";
+    }
+  });
+
+  // Se tiver poucos artigos, não cria botão
+  if (posts.length <= postsPerLoad) return;
+
+  // ===== Criar botão =====
+  const loadBtn = document.createElement("button");
+  loadBtn.id = "loadMorePosts";
+  loadBtn.textContent = "Carregar mais artigos";
+
+  // Estilo alinhado ao seu site
+  loadBtn.style.display = "block";
+  loadBtn.style.margin = "40px auto";
+  loadBtn.style.padding = "14px 26px";
+  loadBtn.style.background = "#1082be";
+  loadBtn.style.color = "#fff";
+  loadBtn.style.border = "none";
+  loadBtn.style.borderRadius = "10px";
+  loadBtn.style.fontSize = "16px";
+  loadBtn.style.cursor = "pointer";
+  loadBtn.style.transition = "0.25s ease";
+  loadBtn.style.boxShadow = "0 8px 20px rgba(0,0,0,.08)";
+
+  loadBtn.onmouseenter = () => loadBtn.style.opacity = "0.85";
+  loadBtn.onmouseleave = () => loadBtn.style.opacity = "1";
+
+  // Inserir botão acima do footer
+  const footer = document.querySelector("footer");
+  footer.parentNode.insertBefore(loadBtn, footer);
+
+  // ===== Clique =====
+  loadBtn.addEventListener("click", function () {
+
+    const next = visible + postsPerLoad;
+
+    posts.forEach((post, index) => {
+      if (index < next) {
+        post.style.display = "block";
+      }
+    });
+
+    visible = next;
+
+    // Remove botão quando acabar
+    if (visible >= posts.length) {
+      loadBtn.remove();
+    }
+  });
+
+});
+</script>
+
+
+</body>
+</html>
