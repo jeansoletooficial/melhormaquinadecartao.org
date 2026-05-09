@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Quiz: Descubra a Melhor Maquininha Mercado Pago em 1 Minuto</title>
+<meta name="description" content="Responda 6 perguntas rápidas e descubra qual maquininha da Mercado Pago combina com o seu negócio. Recomendação personalizada e gratuita." />
+<meta property="og:title" content="Qual a melhor maquininha Mercado Pago para você?" />
+<meta property="og:description" content="Quiz interativo com recomendação personalizada de maquininha em 1 minuto." />
+<style>
+  :root{
+    --bg:#f5f9fc; --fg:#11203a; --muted:#5b6b85; --card:#fff; --border:#e3eaf2;
+    --secondary:#eef3f8;
+    --brand:#00b1ea; --brand-dark:#0073e6; --brand-soft:#e6f7fd;
+    --green:#1fab47;
+    --gradient:linear-gradient(135deg,#00b1ea,#0073e6);
+    --shadow:0 10px 40px -12px rgba(0,115,230,.25);
+    --radius:1rem;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  main{min-height:100vh;position:relative;overflow:hidden}
+  .blob{position:absolute;width:400px;height:400px;border-radius:50%;filter:blur(80px);opacity:.35;pointer-events:none}
+  .blob.a{top:-130px;right:-130px;background:var(--gradient)}
+  .blob.b{top:50%;left:-160px;background:var(--brand-soft);opacity:.6}
+  .container{position:relative;max-width:780px;margin:0 auto;padding:32px 16px 64px}
+  header{display:flex;justify-content:space-between;align-items:center;margin-bottom:32px}
+  .logo{display:flex;align-items:center;gap:8px;font-weight:700}
+  .logo-icon{width:36px;height:36px;border-radius:12px;background:var(--gradient);display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:var(--shadow);font-size:18px}
+  .reset-btn{background:none;border:0;color:var(--muted);font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+  .reset-btn:hover{color:var(--fg)}
+  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--brand-soft);color:var(--fg);border:1px solid rgba(0,177,234,.3);border-radius:999px;padding:6px 14px;font-size:12px;font-weight:500}
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--brand);animation:pulse 1.5s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+  h1{font-size:clamp(32px,6vw,56px);line-height:1.05;margin:24px 0 0;font-weight:800;letter-spacing:-.02em}
+  h1 .grad{background:var(--gradient);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lead{margin:20px auto 0;max-width:560px;color:var(--muted);font-size:18px}
+  .center{text-align:center}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:16px;font-weight:600;font-size:16px;cursor:pointer;border:0;transition:transform .15s,box-shadow .15s;text-decoration:none}
+  .btn-primary{background:var(--gradient);color:#fff;box-shadow:var(--shadow);height:56px;padding:0 36px}
+  .btn-primary:hover{transform:scale(1.02)}
+  .btn-outline{background:#fff;border:2px solid var(--border);color:var(--fg);height:56px}
+  .btn-outline:hover{border-color:var(--brand)}
+  .btn-ghost{background:none;color:var(--muted);padding:10px 16px}
+  .btn-ghost:hover{color:var(--fg)}
+  .small{font-size:12px;color:var(--muted);margin-top:10px}
+  .stats{margin-top:64px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .stat{border:1px solid var(--border);background:var(--card);border-radius:16px;padding:18px;text-align:left}
+  .stat .n{font-size:28px;font-weight:800}
+  .stat .l{font-size:13px;color:var(--muted);margin-top:4px}
+  .progress-wrap{margin-bottom:32px}
+  .progress-meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);font-weight:500;margin-bottom:8px}
+  .progress{height:8px;background:var(--secondary);border-radius:999px;overflow:hidden}
+  .progress > div{height:100%;background:var(--gradient);border-radius:999px;transition:width .5s}
+  h2{font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.02em;margin:0}
+  .sub{color:var(--muted);margin-top:8px}
+  .options{display:grid;gap:12px;margin-top:28px}
+  .opt{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px;cursor:pointer;text-align:left;transition:all .15s;font:inherit;color:inherit;width:100%}
+  .opt:hover{border-color:rgba(0,177,234,.4);transform:scale(1.01);box-shadow:var(--shadow)}
+  .opt.active{border-color:var(--brand);background:var(--brand-soft)}
+  .opt .icon{font-size:28px;flex:0 0 auto}
+  .opt .label{flex:1;font-weight:500}
+  .opt .arrow{width:28px;height:28px;border-radius:50%;background:var(--secondary);color:var(--muted);display:flex;align-items:center;justify-content:center;font-size:14px}
+  .opt.active .arrow{background:var(--brand);color:#fff}
+  .back{margin-top:28px;display:inline-flex;gap:6px;color:var(--muted);background:none;border:0;cursor:pointer;font-size:14px}
+  .back:hover{color:var(--fg)}
+  .result-badge{display:inline-flex;gap:6px;background:var(--gradient);color:#fff;font-weight:600;font-size:12px;padding:6px 14px;border-radius:999px}
+  .hero-card{margin-top:28px;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:linear-gradient(160deg,#fff,#eef7fb);box-shadow:var(--shadow)}
+  .hero-img{aspect-ratio:16/10;background:var(--secondary);overflow:hidden}
+  .hero-img img{width:100%;height:100%;object-fit:cover;display:block}
+  .hero-body{padding:28px}
+  .benefits{list-style:none;padding:0;margin:24px 0 0;display:grid;grid-template-columns:1fr;gap:10px}
+  @media(min-width:640px){.benefits{grid-template-columns:1fr 1fr}}
+  .benefits li{display:flex;gap:10px;align-items:flex-start;font-size:14px}
+  .benefits .check{flex:0 0 auto;width:20px;height:20px;border-radius:50%;background:var(--brand-soft);color:var(--brand);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:bold}
+  .specs{margin-top:24px;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  @media(min-width:768px){.specs{grid-template-columns:repeat(4,1fr)}}
+  .spec{background:rgba(238,243,248,.6);border-radius:12px;padding:12px}
+  .spec .l{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:600}
+  .spec .v{font-size:14px;font-weight:500;margin-top:4px;line-height:1.2}
+  .cta-row{margin-top:28px;display:flex;flex-direction:column;gap:12px}
+  @media(min-width:640px){.cta-row{flex-direction:row}.cta-row .btn{flex:1}}
+  .alternatives{margin-top:48px}
+  .alts{margin-top:18px;display:grid;gap:14px;grid-template-columns:1fr}
+  @media(min-width:768px){.alts{grid-template-columns:1fr 1fr}}
+  .alt{display:flex;gap:14px;background:var(--card);border:1px solid var(--border);border-radius:18px;padding:14px;transition:all .15s}
+  .alt:hover{border-color:rgba(0,177,234,.4);box-shadow:var(--shadow)}
+  .alt-img{width:96px;height:96px;flex:0 0 auto;border-radius:12px;background:var(--secondary);overflow:hidden}
+  .alt-img img{width:100%;height:100%;object-fit:cover}
+  .alt-body{flex:1;min-width:0}
+  .alt-name{font-weight:700}
+  .alt-tag{font-size:12px;color:var(--muted);margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .alt-price{margin-top:8px;font-size:12px;font-weight:600;color:var(--brand-dark)}
+  .alt-links{margin-top:10px;display:flex;gap:12px;font-size:12px;font-weight:600}
+  .alt-links a{text-decoration:none}
+  .alt-links a.wpp{color:var(--green)}
+  .fade{animation:fadeIn .4s ease}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="blob a"></div>
+  <div class="blob b"></div>
+  <div class="container">
+    <header>
+      <div class="logo"><div class="logo-icon">✦</div><span>Maquininha Match</span></div>
+      <button class="reset-btn" id="resetBtn" style="display:none">↺ Recomeçar</button>
+    </header>
+    <div id="app"></div>
+  </div>
+</main>
+
+<script>
+const WHATSAPP_NUMBER = "5571993107035";
+const wpp = (m) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(m)}`;
+
+const questions = [
+  {key:"budget",title:"Qual valor você pretende investir?",subtitle:"Escolha a faixa que melhor cabe no seu bolso",options:[
+    {value:"100",label:"Até R$ 100",icon:"💰"},
+    {value:"300",label:"Até R$ 300",icon:"💵"},
+    {value:"700",label:"Até R$ 700",icon:"💸"},
+    {value:"700+",label:"Acima de R$ 700",icon:"🏆"}]},
+  {key:"usage",title:"Como você pretende usar a maquininha?",options:[
+    {value:"ocasional",label:"Uso ocasional",icon:"🌙"},
+    {value:"diario",label:"Uso diário",icon:"☀️"},
+    {value:"alto",label:"Alto volume de vendas",icon:"🚀"}]},
+  {key:"receipt",title:"Você precisa imprimir comprovante?",options:[
+    {value:"sim",label:"Sim, é importante",icon:"🧾"},
+    {value:"nao",label:"Não preciso",icon:"📱"}]},
+  {key:"chip",title:"Precisa de chip e internet própria?",subtitle:"Útil quando o WiFi do local é instável",options:[
+    {value:"sim",label:"Sim, quero independência",icon:"📶"},
+    {value:"nao",label:"Não, uso WiFi/celular",icon:"📡"}]},
+  {key:"online",title:"Pretende vender online também?",options:[
+    {value:"sim",label:"Sim, redes sociais e WhatsApp",icon:"🌐"},
+    {value:"nao",label:"Não, só presencial",icon:"🏪"}]},
+  {key:"noCost",title:"Quer começar sem custo inicial?",options:[
+    {value:"sim",label:"Sim, zero investimento",icon:"🎁"},
+    {value:"nao",label:"Posso investir agora",icon:"✅"}]},
+];
+
+const products = {
+  mini:{name:"Point Mini NFC 2",tagline:"A queridinha de quem está começando",description:"A maquininha mais acessível da Mercado Pago. Conecta no celular via Bluetooth e aceita aproximação, débito e crédito.",image:"assets/point-mini.jpg",price:"A partir de R$ 89",fees:"Débito 1,99% • Crédito 4,98%",connectivity:"Bluetooth (usa o seu celular)",ideal:"Iniciantes, vendas eventuais e baixo orçamento",benefits:["Mais barata do mercado","Aceita aproximação (NFC)","Sem mensalidade","Recebe na hora na conta Mercado Pago"],affiliate:"https://mpago.li/1rSRiz5",whatsappMsg:"Quero Comprar a Point Mini NFC 2"},
+  air:{name:"Point Air 2",tagline:"Liberdade sem fio com tela própria",description:"Maquininha moderna, sem fio, com tela colorida e bateria de longa duração. Ideal pra quem precisa de mobilidade.",image:"assets/point-air.jpg",price:"A partir de R$ 199",fees:"Débito 1,79% • Crédito 4,38%",connectivity:"Bluetooth + WiFi",ideal:"Quem quer mobilidade sem precisar do celular",benefits:["Tela própria","Não depende do celular","Bateria de longa duração","Design moderno e leve"],affiliate:"https://mpago.li/1q7EmyY",whatsappMsg:"Quero Comprar a Point Air 2"},
+  pro:{name:"Point Pro 3",tagline:"Profissional, com chip e impressora",description:"A escolha de quem leva o negócio a sério. Chip 4G, WiFi, impressora de comprovantes e bateria potente.",image:"assets/point-pro.jpg",price:"A partir de R$ 399",fees:"Débito 1,69% • Crédito 4,18%",connectivity:"Chip 4G + WiFi",ideal:"Volume médio, comércios e prestadores de serviço",benefits:["Imprime comprovante na hora","Chip 4G grátis","Funciona em qualquer lugar","Bateria potente"],affiliate:"https://mpago.li/1A7CMMA",whatsappMsg:"Quero Comprar a Point Pro 3"},
+  smart:{name:"Point Smart 2",tagline:"A mais completa: um POS Android na sua mão",description:"Sistema Android completo com gestão de vendas, catálogo, impressora e tela touch. Para quem quer escalar.",image:"assets/point-smart.jpg",price:"A partir de R$ 799",fees:"Débito 1,69% • Crédito 4,18%",connectivity:"Chip 4G + WiFi",ideal:"Alto volume, restaurantes, lojas e gestão completa",benefits:["Sistema Android completo","Tela touch HD","Gestão de vendas e estoque","Imprime comprovante"],affiliate:"https://mpago.li/32XUanp",whatsappMsg:"Quero Comprar a Point Smart 2"},
+  tap:{name:"Point Tap (App)",tagline:"Seu celular vira maquininha — sem custo",description:"Transforme o seu próprio celular em uma maquininha de cartão usando NFC. Zero investimento inicial.",image:"assets/point-tap.jpg",price:"Grátis",fees:"Débito 1,99% • Crédito 4,98%",connectivity:"NFC do seu celular",ideal:"Quem quer começar sem investir nada",benefits:["Sem custo inicial","Sem maquininha física","Aproxima e cobra","Pronto em minutos"],affiliate:"https://mpago.li/2MZSMfg",whatsappMsg:"Quer ter acesso ao Aplicativo que faz o Celular virar uma Maquininha"},
+  link:{name:"Link de Pagamento",tagline:"Venda pelo WhatsApp e redes sociais",description:"Crie um link de cobrança e envie pelo WhatsApp, Instagram ou e-mail. Seu cliente paga em qualquer lugar.",image:"assets/link-pagamento.jpg",price:"Grátis",fees:"A partir de 4,98% no crédito",connectivity:"100% online",ideal:"Vendas online, redes sociais e delivery",benefits:["Sem maquininha física","Recebe de qualquer lugar do Brasil","Parcela em até 12x","Compartilha em segundos"],affiliate:"https://mpago.la/24aTX7E",whatsappMsg:"Quero Obter Acesso ao Link de Pagamento"},
+};
+
+const ALL_IDS = ["mini","air","pro","smart","tap","link"];
+function pickPrimary(a){
+  if(a.noCost==="sim") return a.online==="sim" ? "link" : "tap";
+  if(a.online==="sim" && a.usage==="ocasional") return "link";
+  if(a.usage==="alto" || a.budget==="700+") return "smart";
+  if(a.receipt==="sim" || a.chip==="sim") return "pro";
+  if(a.budget==="100") return "mini";
+  if(a.usage==="diario" && a.budget!=="100") return "air";
+  return "mini";
+}
+function recommend(a){
+  const primary = pickPrimary(a);
+  return { primary, alternatives: ALL_IDS.filter(id=>id!==primary) };
+}
+
+const esc = (s)=>String(s).replace(/[&<>"']/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+let stage="intro", step=0, answers={};
+const app = document.getElementById("app");
+const resetBtn = document.getElementById("resetBtn");
+resetBtn.onclick = () => { stage="intro"; step=0; answers={}; render(); };
+
+function render(){
+  resetBtn.style.display = stage==="intro" ? "none" : "inline-flex";
+  if(stage==="intro") return renderIntro();
+  if(stage==="quiz") return renderQuiz();
+  if(stage==="result") return renderResult();
+}
+
+function renderIntro(){
+  app.innerHTML = `
+    <section class="center fade" style="padding:40px 0">
+      <span class="badge"><span class="dot"></span> Recomendação personalizada e gratuita</span>
+      <h1>Descubra a <span class="grad">melhor maquininha</span> para o seu negócio em 1 minuto</h1>
+      <p class="lead">Responda 6 perguntas rápidas e receba a recomendação ideal entre as maquininhas Mercado Pago — com preço, taxas e benefícios.</p>
+      <div style="margin-top:36px">
+        <button class="btn btn-primary" id="startBtn">Começar agora →</button>
+        <p class="small">⏱ Leva menos de 60 segundos</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="n">6</div><div class="l">perguntas rápidas</div></div>
+        <div class="stat"><div class="n">6</div><div class="l">produtos analisados</div></div>
+        <div class="stat"><div class="n">1min</div><div class="l">para descobrir</div></div>
+      </div>
+    </section>`;
+  document.getElementById("startBtn").onclick = ()=>{ stage="quiz"; step=0; render(); };
+}
+
+function renderQuiz(){
+  const q = questions[step];
+  const total = questions.length;
+  const progress = (step / total) * 100;
+  app.innerHTML = `
+    <section class="fade">
+      <div class="progress-wrap">
+        <div class="progress-meta"><span>Pergunta ${step+1} de ${total}</span><span>${Math.round(progress)}%</span></div>
+        <div class="progress"><div style="width:${progress}%"></div></div>
+      </div>
+      <h2>${esc(q.title)}</h2>
+      ${q.subtitle?`<p class="sub">${esc(q.subtitle)}</p>`:""}
+      <div class="options">
+        ${q.options.map(o=>`
+          <button class="opt ${answers[q.key]===o.value?"active":""}" data-v="${esc(o.value)}">
+            ${o.icon?`<span class="icon">${o.icon}</span>`:""}
+            <span class="label">${esc(o.label)}</span>
+            <span class="arrow">${answers[q.key]===o.value?"✓":"→"}</span>
+          </button>`).join("")}
+      </div>
+      ${step>0?`<button class="back" id="backBtn">← Voltar</button>`:""}
+    </section>`;
+  app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+    answers[q.key] = b.dataset.v;
+    if(step+1<total){ setTimeout(()=>{ step++; render(); },200); }
+    else { setTimeout(()=>{ stage="result"; render(); },200); }
+  });
+  const back = document.getElementById("backBtn"); if(back) back.onclick=()=>{ step=Math.max(0,step-1); render(); };
+}
+
+function renderResult(){
+  const {primary, alternatives} = recommend(answers);
+  const m = products[primary];
+  app.innerHTML = `
+    <section class="fade">
+      <div class="progress-wrap">
+        <div class="progress-meta"><span>Concluído</span><span>100%</span></div>
+        <div class="progress"><div style="width:100%"></div></div>
+      </div>
+      <div class="center">
+        <span class="result-badge">🏆 Recomendação para você</span>
+        <h2 style="margin-top:16px">${esc(m.name)}</h2>
+        <p class="sub" style="font-size:18px">${esc(m.tagline)}</p>
+      </div>
+      <div class="hero-card">
+        <div class="hero-img"><img src="${m.image}" alt="${esc(m.name)}" /></div>
+        <div class="hero-body">
+          <p style="margin:0;color:#2a3a55">${esc(m.description)}</p>
+          <ul class="benefits">${m.benefits.map(b=>`<li><span class="check">✓</span><span>${esc(b)}</span></li>`).join("")}</ul>
+          <div class="specs">
+            <div class="spec"><div class="l">Preço</div><div class="v">${esc(m.price)}</div></div>
+            <div class="spec"><div class="l">Taxas</div><div class="v">${esc(m.fees)}</div></div>
+            <div class="spec"><div class="l">Conectividade</div><div class="v">${esc(m.connectivity)}</div></div>
+            <div class="spec"><div class="l">Ideal para</div><div class="v">${esc(m.ideal)}</div></div>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="${m.affiliate}" target="_blank" rel="noopener">🛒 Comprar agora</a>
+            <a class="btn btn-outline" href="${wpp(m.whatsappMsg)}" target="_blank" rel="noopener">💬 Falar no WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <div class="alternatives">
+        <h3 style="margin:0;font-size:20px">Outras opções para comparar</h3>
+        <p class="sub" style="margin-top:4px;font-size:14px">Outras maquininhas que também podem servir pro seu perfil</p>
+        <div class="alts">
+          ${alternatives.map(id=>{const p=products[id];return `
+            <div class="alt">
+              <div class="alt-img"><img src="${p.image}" alt="${esc(p.name)}" loading="lazy"/></div>
+              <div class="alt-body">
+                <div class="alt-name">${esc(p.name)}</div>
+                <div class="alt-tag">${esc(p.tagline)}</div>
+                <div class="alt-price">${esc(p.price)}</div>
+                <div class="alt-links">
+                  <a href="${p.affiliate}" target="_blank" rel="noopener">Ver oferta →</a>
+                  <a class="wpp" href="${wpp(p.whatsappMsg)}" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+              </div>
+            </div>`;}).join("")}
+        </div>
+      </div>
+      <div class="center" style="margin-top:48px">
+        <button class="btn btn-ghost" id="restartBtn">↺ Refazer o quiz</button>
+      </div>
+    </section>`;
+  document.getElementById("restartBtn").onclick = ()=>{ stage="intro"; step=0; answers={}; render(); };
+}
+
+render();
+</script>
+</body>
+</html>
