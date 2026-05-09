@@ -1,0 +1,285 @@
+<h1>Transforme seu&nbsp;celular em maquininha&nbsp;de cart&atilde;o&nbsp;com o&nbsp;PagBank</h1>
+
+<p>Receba pagamentos via cr&eacute;dito e d&eacute;bito por aproxima&ccedil;&atilde;o (NFC), aceitando as principais bandeiras e carteiras digitais, com taxa zero para novos clientes.</p>
+
+<p><img alt="A imagem mostra um smartphone com o aplicativo PagBank aberto, exibindo um saldo de R$ 5.000,00. Uma mão segura o cartão de crédito, posicionando-o sobre o celular, utilizando a funcionalidade &quot;Venda com cartão pelo celular&quot; do Tap On. Na imagem, há dois selos destacados: um com o texto &quot;TAXA ZERO&quot; indicando que não há taxa para realizar a transação e outro com a mensagem &quot;RECEBA NA HORA&quot;, ressaltando que as vendas podem ser recebidas imediatamente, inclusive em finais de semana e feriados. O fundo da imagem é amarelo, com destaque para os benefícios da solução." src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p>
+
+<p>Venda com o celularAceite pagamentos por aproxima&ccedil;&atilde;o, sem precisar de maquininhaSem aluguelN&atilde;o pague mensalidades ou taxas fixasRecebimento na horaO valor da venda cai na sua conta PagBankReceba de carteiras digitaisAceite pagamentos via carteiras como Apple Pay e Google PayPara contas PF e PJDispon&iacute;vel para Pessoas F&iacute;sicas e Jur&iacute;dicasSeguran&ccedil;a de maquininhaTecnologia protegida e aprovada pelas bandeiras</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Conhe&ccedil;a as taxas&sup1; para vender com Tap On</strong></h2>
+
+<ul>
+	<li>
+	<p>Vendas no d&eacute;bito:0,00%</p>
+	</li>
+</ul>
+
+<ul>
+	<li>
+	<p>Vendas no cr&eacute;dito &agrave; vista:0,00%</p>
+	</li>
+</ul>
+
+<ul>
+	<li>
+	<p>Vendas no cr&eacute;dito parcelado&nbsp;(6x):9,48%</p>
+	</li>
+</ul>
+
+<p>Ap&oacute;s 30 dias ou at&eacute; atingir R$ 1.500.&nbsp;</p>
+
+<h2>&nbsp;</h2>
+
+<p>fechar</p>
+
+<h3>&nbsp;</h3>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>&nbsp;</h3>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>&nbsp;</h3>
+
+<p>&nbsp;</p>
+
+<table>
+	<thead>
+		<tr>
+			<th scope="col">&nbsp;</th>
+			<th scope="col">&nbsp;</th>
+			<th scope="col">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>Bandeiras Aceitas</h3>
+
+<ul>
+	<li><img alt="Mastercard" height="40" src="https://assets.pagseguro.com.br/ps-brands-assets/v2.28.0/img/mastercard-x40.png" title="Mastercard" width="60" /></li>
+	<li><img alt="Visa" height="40" src="https://assets.pagseguro.com.br/ps-brands-assets/v2.28.0/img/visa-x40.png" title="Visa" width="60" /></li>
+	<li><img alt="Elo" height="40" src="https://assets.pagseguro.com.br/ps-brands-assets/v2.28.0/img/elo-x40.png" title="Elo" width="60" /></li>
+	<li><img alt="American Express" height="40" src="https://assets.pagseguro.com.br/ps-brands-assets/v2.28.0/img/amex-x40.png" title="American Express" width="60" /></li>
+	<li><img alt="Apple Pay" height="40" src="https://assets.pagseguro.com.br/ps-brands-assets/v2.28.0/img/apple-pay-x40.png" title="Apple Pay" width="60" /></li>
+	<li><img alt="Google Pay" height="40" src="https://assets.pagseguro.com.br/ps-brands-assets/v2.28.0/img/google-pay-x40.png" title="Google Pay" width="60" /></li>
+	<li><img alt="Samsung Pay" height="40" src="https://assets.pagseguro.com.br/ps-brands-assets/v2.28.0/img/samsung-pay-x40.png" title="Samsung Pay" width="60" /></li>
+</ul>
+
+<p><img alt="Imagem mostrando a funcionalidade de Tap to Pay no iPhone com um cartão Visa do PagBank. A mão segurando o iPhone exibe a tela de pagamento com o valor de R$ 230,00, enquanto a outra mão segura o cartão e o posiciona para o pagamento por aproximação." src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p>
+
+<h2>Tap to Pay no iPhone</h2>
+
+<p>Aceite todos os tipos de pagamento f&iacute;sico por aproxima&ccedil;&atilde;o com o Tap to Pay no iPhone. N&atilde;o precisa de maquininha: basta ter um iPhone&sup2; e o aplicativo PagBank para come&ccedil;ar a vender!</p>
+
+<p><img alt="Tela do aplicativo PagBank mostrando a opção de nova venda, com o valor de R$ 230,00. A cobrança será feita via Tap On, com uma lista de opções de pagamento visíveis, incluindo a opção de Minizinha, via maquininha, e link de Pagamento." src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p>
+
+<h2>O PagBank transforma seu celular em maquininha!</h2>
+
+<p>Com os aplicativos PagBank e PagVendas, voc&ecirc; pode come&ccedil;ar a receber pagamentos em seu celular sem taxa de ades&atilde;o. Basta aproximar qualquer aparelho com tecnologia NFC (cart&atilde;o, celular ou rel&oacute;gio inteligente).</p>
+
+<p><img alt="Homem de pele clara, cabelo ruivo, vestindo camiseta branca e calça jeans, segura um celular com o aplicativo PagBank aberto, realizando uma transação via Tap On. O fundo é amarelo. A imagem representa o uso do Tap On PagBank para receber pagamentos por aproximação com praticidade e segurança." src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p>
+
+<h2>Com Tap On voc&ecirc; tem mais praticidade e seguran&ccedil;a para seu neg&oacute;cio</h2>
+
+<p>Ative o&nbsp;<strong>Tap On</strong>&nbsp;em quantos celulares quiser e receba pagamentos no cr&eacute;dito e d&eacute;bito por aproxima&ccedil;&atilde;o com a mesma seguran&ccedil;a das maquininhas.<br />
+<br />
+Se voc&ecirc; j&aacute; tem uma maquininha ative o&nbsp;<strong>Tap On</strong>&nbsp;como op&ccedil;&atilde;o extra e comece a vender com a menor taxa do mercado!</p>
+
+<h2>Confira como &eacute; f&aacute;cil receber vendas pelo Tap&nbsp;On</h2>
+
+<ul>
+	<li>PagBank</li>
+	<li>PagVendas</li>
+</ul>
+
+<ul>
+	<li><img alt="Dentro de Vender, digite o valor e toque em Cobrar" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+	<p><img alt="Passo 1" src="https://acq-static-pages.pagseguro.com.br/static-pages/website/website-online-sales-pages/_next/static/media/green-diamond-n1.8d57b928.svg" /></p>
+
+	<p>Dentro do menu&nbsp;<strong>Vendas</strong>, digite o valor e toque em&nbsp;<strong>Vender</strong></p>
+	</li>
+	<li><img alt="Selecione a opção Tap On" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+	<p><img alt="Passo 2" src="https://acq-static-pages.pagseguro.com.br/static-pages/website/website-online-sales-pages/_next/static/media/green-diamond-n2.93f5f111.svg" /></p>
+
+	<p>Selecione a op&ccedil;&atilde;o&nbsp;<strong>Tap&nbsp;On*</strong></p>
+	</li>
+	<li><img alt="Aproxime o cartão atrás do seu celular" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+	<p><img alt="Passo 3" src="https://acq-static-pages.pagseguro.com.br/static-pages/website/website-online-sales-pages/_next/static/media/green-diamond-n3.a7f50481.svg" /></p>
+
+	<p>Aproxime o cart&atilde;o atr&aacute;s do seu celular</p>
+	</li>
+	<li><img alt="Com a venda finalizada, você pode enviar o comprovante" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+	<p><img alt="Passo 4" src="https://acq-static-pages.pagseguro.com.br/static-pages/website/website-online-sales-pages/_next/static/media/green-diamond-n4.43d92b8a.svg" /></p>
+
+	<p>Com a venda finalizada, voc&ecirc; pode enviar&nbsp;o&nbsp;<strong>comprovante</strong></p>
+	</li>
+</ul>
+
+<p>*No primeiro pagamento com o Tap On, o usu&aacute;rio ser&aacute; direcionado para o Google Play para baixar uma extens&atilde;o chamada Tap On (extens&atilde;o&nbsp;PagVendas).</p>
+
+<p><img alt="Homem de pele clara, cabelo curto e branco, segurando um celular com o aplicativo PagBank aberto. Ao lado dele, mulher de pele clara e cabelo castanho escuro. Ambos estão em ambiente interno, com fundo claro. A imagem representa o uso do Tap On PagBank para controle completo de vendas, estoque e pagamentos diretamente pelo celular." src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p>
+
+<h2>Com Tap On, organize suas vendas e pagamentos em um s&oacute; lugar</h2>
+
+<p>Para usar o Tap On, baixe gratuitamente o aplicativo PagBank ou PagVendas. Tenha total controle do seu neg&oacute;cio pelo celular, do momento da venda at&eacute; o gerenciamento de produtos, clientes e vendas no aplicativo.</p>
+
+<ul>
+	<li>
+	<p>Controle de estoque e&nbsp;fiado</p>
+	</li>
+	<li>
+	<p>Abertura&nbsp;e&nbsp;fechamento de&nbsp;conta</p>
+	</li>
+	<li>
+	<p>Relat&oacute;rios e gr&aacute;ficos de&nbsp;vendas</p>
+	</li>
+</ul>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>&nbsp;</h3>
+
+<p>Tap On &eacute; uma funcionalidade em que o celular ou tablet do vendedor funciona como maquininha de cart&atilde;o de cr&eacute;dito e d&eacute;bito para vender por aproxima&ccedil;&atilde;o. Seu cliente s&oacute; precisa encostar o cart&atilde;o de d&eacute;bito ou cr&eacute;dito ou rel&oacute;gio inteligente para fazer o pagamento no celular. O Tap On est&aacute; dispon&iacute;vel para Android com a vers&atilde;o 11 ou superior e o Tap to Pay no iPhone com a vers&atilde;o 17 ou superior.</p>
+
+<h3>&nbsp;</h3>
+
+<p>Voc&ecirc; pode transformar o seu celular em maquininha com o Tap On PagBank, a solu&ccedil;&atilde;o de pagamento por aproxima&ccedil;&atilde;o (NFC) que permite receber pagamentos diretamente atrav&eacute;s do seu celular Android ou iPhone, sem precisar de uma maquininha f&iacute;sica.</p>
+
+<h3>&nbsp;</h3>
+
+<p>NFC (Near Field Communication) &eacute; uma tecnologia de comunica&ccedil;&atilde;o por aproxima&ccedil;&atilde;o que permite a troca de informa&ccedil;&otilde;es entre dispositivos sem fio. No Tap On PagBank, ela &eacute; usada para aceitar pagamentos apenas aproximando cart&otilde;es, celulares ou dispositivos compat&iacute;veis.</p>
+
+<h3>&nbsp;</h3>
+
+<p>N&atilde;o! Para vender com o Tap to Pay no iPhone, voc&ecirc; s&oacute; precisa de um celular ou tablet com iOS 17 ou superior. J&aacute; no Android, &eacute; necess&aacute;rio ter um dispositivo com sistema igual ou superior a 11, para baixar a extens&atilde;o na loja de aplicativos e transformar seu celular Android em uma maquininha de cart&atilde;o para receber as vendas por aproxima&ccedil;&atilde;o e o valor diretamente na sua conta PagBank!</p>
+
+<h3>&nbsp;</h3>
+
+<p>Com esta funcionalidade, seu celular vira uma maquininha de cart&atilde;o, &oacute;tima solu&ccedil;&atilde;o para todos os vendedores aut&ocirc;nomos, MEI ou EIRELI. Voc&ecirc; pode aceitar pagamentos onde estiver e n&atilde;o precisa estar com a m&aacute;quina de cart&atilde;o para vender. N&atilde;o perca mais vendas e comece agora mesmo a usar o Tap On do PagBank!</p>
+
+<h3>&nbsp;</h3>
+
+<p>As taxas do Tap On PagBank variam de acordo com a modalidade de pagamento (d&eacute;bito, cr&eacute;dito &agrave; vista ou parcelado) e o plano contratado. Para conferir as tarifas atualizadas, acesse o app PagBank ou o iBanking.</p>
+
+<h3>&nbsp;</h3>
+
+<p>O Tap On &eacute; para todos os clientes PF ou PJ com um celular ou tablet com a tecnologia NFC em seu aparelho e com sistema Android igual ou superior a 11. O Tap to Pay tamb&eacute;m est&aacute; dispon&iacute;vel para iPhones com vers&atilde;o 17 ou superior. O cliente n&atilde;o paga nenhuma taxa adicional para usar o Tap On, al&eacute;m da taxa de intermedia&ccedil;&atilde;o j&aacute; cobrada nas transa&ccedil;&otilde;es de cr&eacute;dito &agrave; vista, parcelado e d&eacute;bito.</p>
+
+<h3>&nbsp;</h3>
+
+<p>Os clientes pagar&atilde;o com seus cart&otilde;es de cr&eacute;dito, d&eacute;bito e carteiras digitais como Google Play e Apple Pay usando dispositivos com a tecnologia NFC (pagamento por aproxima&ccedil;&atilde;o), como celulares e rel&oacute;gios inteligentes. As transa&ccedil;&otilde;es podem ser d&eacute;bito, cr&eacute;dito &agrave; vista e parcelado a partir de R$ 1,00.</p>
+
+<h2>Ficou com alguma d&uacute;vida? Podemos te ajudar!</h2>
+
+<p><a href="https://faq.pagbank.com.br/duvida/o-que-e-e-como-funciona-o-tap-on/2012"><img alt="Ilustração de um balão de conversa" src="https://acq-static-pages.pagseguro.com.br/static-pages/website/website-online-sales-pages/_next/static/media/questions.e59f1399.svg" /></a></p>
+
+<p><a href="https://faq.pagbank.com.br/duvida/o-que-e-e-como-funciona-o-tap-on/2012">Perguntas frequentes</a></p>
+
+<p><a href="https://pagbank.com.br/ajuda/envie-um-email"><img alt="Ilustração de um envelope de carta" src="https://acq-static-pages.pagseguro.com.br/static-pages/website/website-online-sales-pages/_next/static/media/email.bedc7c56.svg" /></a></p>
+
+<p><a href="https://pagbank.com.br/ajuda/envie-um-email">E-mail</a></p>
+
+<ol>
+	<li>Abertura de conta sujeita &agrave; an&aacute;lise cadastral. Campanha Taxa Zero Tap On Venda presencial v&aacute;lida exclusivamente para as modalidades Cr&eacute;dito &agrave; Vista e D&eacute;bito, no Tap On, e Cr&eacute;dito &agrave; Vista e D&eacute;bito na venda atrav&eacute;s das maquininhas. Validade de 30 dias ou atingimento de R$1.500,00 em TPV de TapOn Venda presencial. Caso o cliente tenha os dois produtos, Tap On e Maquininha, a campanha a ser ativada ser&aacute; aquela referente ao canal que realizou a primeira venda, ou seja, primeira venda com Tap On, o cliente participar&aacute; da campanha Taxa Zero Tap On Venda Presencial. Se a primeira venda for na maquininha, o cliente participar&aacute; da campanha Taxa Zero. E as vendas do Tap On n&atilde;o ser&atilde;o eleg&iacute;veis para a taxa zero. Consulte o Regulamento da Taxa&nbsp;Zero&nbsp;<a href="https://faq.pagbank.com.br/duvida/regulamento-taxa-zero-0/994">aqui</a>. Consulte o Regulamento da Taxa Zero Tap On Venda Presencial&nbsp;<a href="https://faq.pagbank.com.br/duvida/campanha-taxa-zero-tap-on/1584">aqui</a>.</li>
+	<li>A partir da vers&atilde;o&nbsp;17 do&nbsp;iOS, o Tap&nbsp;to&nbsp;Pay estar&aacute; dispon&iacute;vel nos apps&nbsp;PagBank e&nbsp;PagVendas, sem a necessidade de extens&otilde;es. Aceita&nbsp;Visa, Mastercard e&nbsp;Amex, em&nbsp;d&eacute;bito, cr&eacute;dito &agrave;&nbsp;vista e parcelado, com trava din&acirc;mica de R$1,00&nbsp;(um real) a&nbsp;R$5.000&nbsp;(cinco mil reais) . Para transa&ccedil;&otilde;es acima de R$200&nbsp;(duzentos reais) &eacute; solicitada senha. As mesmas taxas do Tap&nbsp;On&nbsp;Android se aplicam.</li>
+</ol>
+
+<p>Abertura de conta est&aacute; sujeita &agrave; an&aacute;lise&nbsp;cadastral do&nbsp;PagBank. Para utilizar o recurso &eacute; necess&aacute;rio baixar o app&nbsp;PagBank ou PagVendas, dispon&iacute;vel apenas para o sistema&nbsp;Android superior a&nbsp;8.1 e possuir tecnologia&nbsp;NFC.</p>
