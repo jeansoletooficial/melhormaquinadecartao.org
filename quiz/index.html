@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTK6LDTK');</script>
+<!-- End Google Tag Manager -->
+
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Quiz: Descubra a Melhor Maquininha Mercado Pago em 1 Minuto</title>
@@ -40,7 +49,7 @@
   .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:16px;font-weight:600;font-size:16px;cursor:pointer;border:0;transition:transform .15s,box-shadow .15s;text-decoration:none}
   .btn-primary{background:var(--gradient);color:#fff;box-shadow:var(--shadow);height:56px;padding:0 36px}
   .btn-primary:hover{transform:scale(1.02)}
-  .btn-outline{background:#fff;border:2px solid var(--border);color:var(--fg);height:56px}
+  .btn-outline{background:#1eaa47;border:2px solid var(--border);color:#ffffff;height:56px}
   .btn-outline:hover{border-color:var(--brand)}
   .btn-ghost{background:none;color:var(--muted);padding:10px 16px}
   .btn-ghost:hover{color:var(--fg)}
@@ -67,7 +76,7 @@
   .back:hover{color:var(--fg)}
   .result-badge{display:inline-flex;gap:6px;background:var(--gradient);color:#fff;font-weight:600;font-size:12px;padding:6px 14px;border-radius:999px}
   .hero-card{margin-top:28px;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:linear-gradient(160deg,#fff,#eef7fb);box-shadow:var(--shadow)}
-  .hero-img{aspect-ratio:16/10;background:var(--secondary);overflow:hidden}
+  .hero-img{aspect-ratio:12/11;background:var(--secondary);overflow:hidden}
   .hero-img img{width:100%;height:100%;object-fit:cover;display:block}
   .hero-body{padding:28px}
   .benefits{list-style:none;padding:0;margin:24px 0 0;display:grid;grid-template-columns:1fr;gap:10px}
@@ -91,21 +100,33 @@
   .alt-body{flex:1;min-width:0}
   .alt-name{font-weight:700}
   .alt-tag{font-size:12px;color:var(--muted);margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .alt-price{margin-top:8px;font-size:12px;font-weight:600;color:var(--brand-dark)}
+  .alt-price{margin-top:8px;font-size:12px;font-weight:700;color:#1fab47;}
   .alt-links{margin-top:10px;display:flex;gap:12px;font-size:12px;font-weight:600}
-  .alt-links a{text-decoration:none}
-  .alt-links a.wpp{color:var(--green)}
+  .alt-links a {
+    text-decoration:none;
+    padding: 11px;
+    background-color: #1eaa47;
+    border-radius: 4px;
+    color: #fff;
+
+  }
+  .alt-links a.wpp{color: #fff;}
   .fade{animation:fadeIn .4s ease}
   @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTK6LDTK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+ 
 <main>
   <div class="blob a"></div>
   <div class="blob b"></div>
   <div class="container">
     <header>
-      <div class="logo"><div class="logo-icon">✦</div><span>Maquininha Match</span></div>
+      <div class="logo"><div class="logo-icon">✦</div><span>Escolha sua Maquininha</span></div>
       <button class="reset-btn" id="resetBtn" style="display:none">↺ Recomeçar</button>
     </header>
     <div id="app"></div>
@@ -118,10 +139,10 @@ const wpp = (m) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(m
 
 const questions = [
   {key:"budget",title:"Qual valor você pretende investir?",subtitle:"Escolha a faixa que melhor cabe no seu bolso",options:[
-    {value:"100",label:"Até R$ 100",icon:"💰"},
-    {value:"300",label:"Até R$ 300",icon:"💵"},
-    {value:"700",label:"Até R$ 700",icon:"💸"},
-    {value:"700+",label:"Acima de R$ 700",icon:"🏆"}]},
+    {value:"100",label:"Até R$ 50",icon:"💰"},
+    {value:"300",label:"Até R$ 100",icon:"💵"},
+    {value:"700",label:"Até R$ 150",icon:"💸"},
+    {value:"700+",label:"Até R$ 200",icon:"🏆"}]},
   {key:"usage",title:"Como você pretende usar a maquininha?",options:[
     {value:"ocasional",label:"Uso ocasional",icon:"🌙"},
     {value:"diario",label:"Uso diário",icon:"☀️"},
@@ -141,12 +162,12 @@ const questions = [
 ];
 
 const products = {
-  mini:{name:"Point Mini NFC 2",tagline:"A queridinha de quem está começando",description:"A maquininha mais acessível da Mercado Pago. Conecta no celular via Bluetooth e aceita aproximação, débito e crédito.",image:"assets/point-mini.jpg",price:"A partir de R$ 89",fees:"Débito 1,99% • Crédito 4,98%",connectivity:"Bluetooth (usa o seu celular)",ideal:"Iniciantes, vendas eventuais e baixo orçamento",benefits:["Mais barata do mercado","Aceita aproximação (NFC)","Sem mensalidade","Recebe na hora na conta Mercado Pago"],affiliate:"https://mpago.li/1rSRiz5",whatsappMsg:"Quero Comprar a Point Mini NFC 2"},
-  air:{name:"Point Air 2",tagline:"Liberdade sem fio com tela própria",description:"Maquininha moderna, sem fio, com tela colorida e bateria de longa duração. Ideal pra quem precisa de mobilidade.",image:"assets/point-air.jpg",price:"A partir de R$ 199",fees:"Débito 1,79% • Crédito 4,38%",connectivity:"Bluetooth + WiFi",ideal:"Quem quer mobilidade sem precisar do celular",benefits:["Tela própria","Não depende do celular","Bateria de longa duração","Design moderno e leve"],affiliate:"https://mpago.li/1q7EmyY",whatsappMsg:"Quero Comprar a Point Air 2"},
-  pro:{name:"Point Pro 3",tagline:"Profissional, com chip e impressora",description:"A escolha de quem leva o negócio a sério. Chip 4G, WiFi, impressora de comprovantes e bateria potente.",image:"assets/point-pro.jpg",price:"A partir de R$ 399",fees:"Débito 1,69% • Crédito 4,18%",connectivity:"Chip 4G + WiFi",ideal:"Volume médio, comércios e prestadores de serviço",benefits:["Imprime comprovante na hora","Chip 4G grátis","Funciona em qualquer lugar","Bateria potente"],affiliate:"https://mpago.li/1A7CMMA",whatsappMsg:"Quero Comprar a Point Pro 3"},
-  smart:{name:"Point Smart 2",tagline:"A mais completa: um POS Android na sua mão",description:"Sistema Android completo com gestão de vendas, catálogo, impressora e tela touch. Para quem quer escalar.",image:"assets/point-smart.jpg",price:"A partir de R$ 799",fees:"Débito 1,69% • Crédito 4,18%",connectivity:"Chip 4G + WiFi",ideal:"Alto volume, restaurantes, lojas e gestão completa",benefits:["Sistema Android completo","Tela touch HD","Gestão de vendas e estoque","Imprime comprovante"],affiliate:"https://mpago.li/32XUanp",whatsappMsg:"Quero Comprar a Point Smart 2"},
-  tap:{name:"Point Tap (App)",tagline:"Seu celular vira maquininha — sem custo",description:"Transforme o seu próprio celular em uma maquininha de cartão usando NFC. Zero investimento inicial.",image:"assets/point-tap.jpg",price:"Grátis",fees:"Débito 1,99% • Crédito 4,98%",connectivity:"NFC do seu celular",ideal:"Quem quer começar sem investir nada",benefits:["Sem custo inicial","Sem maquininha física","Aproxima e cobra","Pronto em minutos"],affiliate:"https://mpago.li/2MZSMfg",whatsappMsg:"Quer ter acesso ao Aplicativo que faz o Celular virar uma Maquininha"},
-  link:{name:"Link de Pagamento",tagline:"Venda pelo WhatsApp e redes sociais",description:"Crie um link de cobrança e envie pelo WhatsApp, Instagram ou e-mail. Seu cliente paga em qualquer lugar.",image:"assets/link-pagamento.jpg",price:"Grátis",fees:"A partir de 4,98% no crédito",connectivity:"100% online",ideal:"Vendas online, redes sociais e delivery",benefits:["Sem maquininha física","Recebe de qualquer lugar do Brasil","Parcela em até 12x","Compartilha em segundos"],affiliate:"https://mpago.la/24aTX7E",whatsappMsg:"Quero Obter Acesso ao Link de Pagamento"},
+  mini:{name:"Point Mini NFC 2",tagline:"A queridinha de quem está começando",description:"A maquininha mais acessível da Mercado Pago. Conecta no celular via Bluetooth e aceita aproximação, débito e crédito.",image:"assets/point-mini.jpg",price:"R$ 25,90",fees:"Débito 0,74% • Crédito: 0,74% • Crédito 12x: 8,99%",connectivity:"Bluetooth (usa o seu celular)",ideal:"Iniciantes, vendas eventuais e baixo orçamento",benefits:["Mais barata do mercado","Aceita aproximação (NFC)","Sem mensalidade","Recebe na hora na conta Mercado Pago"],affiliate:"https://mpago.li/1rSRiz5",whatsappMsg:"Quero Comprar a Point Mini NFC 2"},
+  air:{name:"Point Air 2",tagline:"Liberdade sem fio com tela própria",description:"Maquininha moderna, sem fio, com tela colorida e bateria de longa duração. Ideal pra quem precisa de mobilidade.",image:"assets/point-air.jpg",price:"R$ 59,90",fees:"Débito 0,74% • Crédito: 0,74% • Crédito 12x: 8,99%",connectivity:"Bluetooth + WiFi",ideal:"Quem quer mobilidade sem precisar do celular",benefits:["Tela própria","Não depende do celular","Bateria de longa duração","Design moderno e leve"],affiliate:"https://mpago.li/1q7EmyY",whatsappMsg:"Quero Comprar a Point Air 2"},
+  pro:{name:"Point Pro 3",tagline:"Profissional, com chip e impressora",description:"A escolha de quem leva o negócio a sério. Chip 4G, WiFi, impressora de comprovantes e bateria potente.",image:"assets/point-pro.jpg",price:"R$ 109,90",fees:"Débito 0,74% • Crédito: 0,74% • Crédito 12x: 8,99%",connectivity:"Chip 4G + WiFi",ideal:"Volume médio, comércios e prestadores de serviço",benefits:["Imprime comprovante na hora","Chip 4G grátis","Funciona em qualquer lugar","Bateria potente"],affiliate:"https://mpago.li/1A7CMMA",whatsappMsg:"Quero Comprar a Point Pro 3"},
+  smart:{name:"Point Smart 2",tagline:"A mais completa: um POS Android na sua mão",description:"Sistema Android completo com gestão de vendas, catálogo, impressora e tela touch. Para quem quer escalar.",image:"assets/point-smart.jpg",price:"R$ 199,90",fees:"Débito 0,74% • Crédito: 0,74% • Crédito 12x: 8,99%",connectivity:"Chip 4G + WiFi",ideal:"Alto volume, restaurantes, lojas e gestão completa",benefits:["Sistema Android completo","Tela touch HD","Gestão de vendas e estoque","Imprime comprovante"],affiliate:"https://mpago.li/32XUanp",whatsappMsg:"Quero Comprar a Point Smart 2"},
+  tap:{name:"Point Tap (App)",tagline:"Seu celular vira maquininha — sem custo",description:"Transforme o seu próprio celular em uma maquininha de cartão usando NFC. Zero investimento inicial.",image:"assets/point-tap.jpg",price:"Grátis",fees:"Débito 0,89% • Crédito: 3,09%",connectivity:"NFC do seu celular",ideal:"Quem quer começar sem investir nada",benefits:["Sem custo inicial","Sem maquininha física","Aproxima e cobra","Pronto em minutos"],affiliate:"https://mpago.li/2MZSMfg",whatsappMsg:"Quer ter acesso ao Aplicativo que faz o Celular virar uma Maquininha"},
+  link:{name:"Link de Pagamento",tagline:"Venda pelo WhatsApp e redes sociais",description:"Crie um link de cobrança e envie pelo WhatsApp, Instagram ou e-mail. Seu cliente paga em qualquer lugar.",image:"assets/link-pagamento-2.gif",price:"Grátis",fees:"Crédito: 4,98% • Pix: 0,99% • Boleto: R$ 3,99",connectivity:"100% online",ideal:"Vendas online, redes sociais e delivery",benefits:["Sem maquininha física","Recebe de qualquer lugar do Brasil","Parcela em até 12x","Compartilha em segundos"],affiliate:"https://mpago.la/24aTX7E",whatsappMsg:"Quero Obter Acesso ao Link de Pagamento"},
 };
 
 const ALL_IDS = ["mini","air","pro","smart","tap","link"];
@@ -247,8 +268,9 @@ function renderResult(){
           <p style="margin:0;color:#2a3a55">${esc(m.description)}</p>
           <ul class="benefits">${m.benefits.map(b=>`<li><span class="check">✓</span><span>${esc(b)}</span></li>`).join("")}</ul>
           <div class="specs">
-            <div class="spec"><div class="l">Preço</div><div class="v">${esc(m.price)}</div></div>
-            <div class="spec"><div class="l">Taxas</div><div class="v">${esc(m.fees)}</div></div>
+            <div class="spec"><div class="l">Preço</div><div class="v">Disponível no Site</div></div>
+            <div class="spec"><div class="l">Taxas</div><div class="v">Débito: 0,74%<br>Crédito: 0,74%<br>Crédito 12x: 8,99%<br>
+              Mais informações no Site</div></div>
             <div class="spec"><div class="l">Conectividade</div><div class="v">${esc(m.connectivity)}</div></div>
             <div class="spec"><div class="l">Ideal para</div><div class="v">${esc(m.ideal)}</div></div>
           </div>
@@ -270,7 +292,7 @@ function renderResult(){
                 <div class="alt-tag">${esc(p.tagline)}</div>
                 <div class="alt-price">${esc(p.price)}</div>
                 <div class="alt-links">
-                  <a href="${p.affiliate}" target="_blank" rel="noopener">Ver oferta →</a>
+                  <a href="${p.affiliate}" target="_blank" rel="noopener">Saber Mais →</a>
                   <a class="wpp" href="${wpp(p.whatsappMsg)}" target="_blank" rel="noopener">WhatsApp</a>
                 </div>
               </div>
